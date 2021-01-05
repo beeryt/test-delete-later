@@ -12,7 +12,11 @@
     "react",
     "netlify"
   ],
-  "scripts": {},
+  "scripts": {
+    "lint": "prettier -c ."
+  },
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
 }
