@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "name": "smileycarl.com",
+  "description": "Carl's personal website handcrafted with artisanal bits and bytes",
+  "version": "1.0.0",
+  "author": "Carl B. Smiley",
+  "license": "MIT",
+  "repository": "github:/beeryt/smileycarl.com",
+  "keywords": [
+    "jamstack",
+    "gatsby",
+    "react",
+    "netlify"
+  ],
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {}
+}

@@ -1,0 +1,7 @@
+# npm files
+node_modules/
+.npm
+
+# Filesystem fragments
+**/.DS_Store
+**/.Thumbs.db
