@@ -1,5 +1,7 @@
 # [smileycarl.com](https://smileycarl.com)
 
+![Continous Integration](https://github.com/beeryt/test-delete-later/workflows/Continous%20Integration/badge.svg?branch=main)
+
 Carl's personal website handcrafted with artisanal free-range bits and bytes.
 
 ## Features
