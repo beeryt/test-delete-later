@@ -13,10 +13,13 @@
     "netlify"
   ],
   "scripts": {
-    "lint": "prettier -c ."
+    "lint": "prettier -c .",
+    "commitlint": "commitlint --to HEAD"
   },
   "dependencies": {},
   "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/git": "^9.0.0",
     "prettier": "^2.2.1",
