@@ -1,7 +1,9 @@
 name: semantic-release
 on:
   push:
-    branches: main
+    branches:
+      - main
+      - next
 jobs:
   semantic-release:
     name: semantic-release
