@@ -1,3 +1,7 @@
+# Gatsby files
+.cache/
+public/
+
 # npm files
 .npm
 node_modules/

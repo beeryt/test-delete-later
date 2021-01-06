@@ -13,15 +13,26 @@
     "netlify"
   ],
   "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "start": "npm run develop",
     "lint": "prettier -c . && tsc --noEmit",
     "commitlint": "commitlint --to HEAD"
   },
-  "dependencies": {},
+  "dependencies": {
+    "gatsby": "^2.30.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/git": "^9.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
     "prettier": "^2.2.1",
     "semantic-release": "^17.3.1",
     "typescript": "^4.1.3"
