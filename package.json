@@ -13,7 +13,7 @@
     "netlify"
   ],
   "scripts": {
-    "lint": "prettier -c .",
+    "lint": "prettier -c . && tsc --noEmit",
     "commitlint": "commitlint --to HEAD"
   },
   "dependencies": {},
@@ -23,6 +23,7 @@
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/git": "^9.0.0",
     "prettier": "^2.2.1",
-    "semantic-release": "^17.3.1"
+    "semantic-release": "^17.3.1",
+    "typescript": "^4.1.3"
   }
 }
