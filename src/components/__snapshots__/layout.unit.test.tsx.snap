@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout correctly sets canonical link 1`] = `
+<body>
+  <div>
+    <header>
+      <nav
+        aria-label="main navigation"
+        class="navbar is-primary"
+        role="navigation"
+      >
+        <div
+          class="navbar-brand"
+        >
+          <a
+            class="navbar-item is-size-3 has-text-dark"
+            href="/"
+          >
+            Default Title
+          </a>
+          <div
+            aria-expanded="false"
+            aria-label="menu"
+            class="navbar-burger "
+            role="button"
+          >
+            <span
+              aria-hidden="true"
+            />
+            <span
+              aria-hidden="true"
+            />
+            <span
+              aria-hidden="true"
+            />
+          </div>
+        </div>
+        <div
+          class="navbar-menu "
+        >
+          <div
+            class="navbar-end"
+          />
+        </div>
+      </nav>
+    </header>
+    <main
+      id="full-body-wrapper"
+    />
+    <footer
+      class="footer"
+    />
+  </div>
+</body>
+`;
+
+exports[`Layout correctly sets canonical link 2`] = `
+<head>
+  <title>
+    Default Title
+  </title>
+</head>
+`;
+
+exports[`Layout renders correctly 1`] = `
+<body>
+  <div>
+    <header>
+      <nav
+        aria-label="main navigation"
+        class="navbar is-primary"
+        role="navigation"
+      >
+        <div
+          class="navbar-brand"
+        >
+          <a
+            class="navbar-item is-size-3 has-text-dark"
+            href="/"
+          >
+            Default Title
+          </a>
+          <div
+            aria-expanded="false"
+            aria-label="menu"
+            class="navbar-burger "
+            role="button"
+          >
+            <span
+              aria-hidden="true"
+            />
+            <span
+              aria-hidden="true"
+            />
+            <span
+              aria-hidden="true"
+            />
+          </div>
+        </div>
+        <div
+          class="navbar-menu "
+        >
+          <div
+            class="navbar-end"
+          />
+        </div>
+      </nav>
+    </header>
+    <main
+      id="full-body-wrapper"
+    />
+    <footer
+      class="footer"
+    />
+  </div>
+</body>
+`;
+
+exports[`Layout renders correctly 2`] = `
+<head>
+  <title>
+    Default Title
+  </title>
+  <meta
+    content="Default Description"
+    data-react-helmet="true"
+    name="description"
+  />
+</head>
+`;
