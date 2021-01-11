@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AboutCard renders correctly with missing query 1`] = `
+<body>
+  <div>
+    <div
+      class="card"
+    >
+      <div
+        class="card-image"
+      >
+        <figure
+          class="image"
+        >
+          <img
+            alt="Placeholder image"
+            src="https://bulma.io/images/placeholders/1280x960.png"
+            title=""
+          />
+        </figure>
+      </div>
+      <div
+        class="card-content"
+      >
+        <div
+          class="media"
+        >
+          <div
+            class="media-content"
+          >
+            <p
+              class="title is-4"
+            >
+              Carl B. Smiley
+            </p>
+            <p
+              class="subtitle is-6"
+            >
+              @linux_pangolin
+            </p>
+          </div>
+        </div>
+        <div
+          class="level is-mobile"
+        >
+          <a
+            aria-label="GitHub"
+            class="level-item"
+            href="https://github.com/beeryt"
+          >
+            <span
+              class="icon"
+            >
+              <i
+                class="fab fa-github"
+              />
+            </span>
+          </a>
+          <a
+            aria-label="LinkedIn"
+            class="level-item"
+            href="https://www.linkedin.com/in/carl-b-smiley"
+          >
+            <span
+              class="icon"
+            >
+              <i
+                class="fab fa-linkedin"
+              />
+            </span>
+          </a>
+          <a
+            aria-label="StackExchange"
+            class="level-item"
+            href="https://stackexchange.com/users/13595322/linux-pangolin"
+          >
+            <span
+              class="icon"
+            >
+              <i
+                class="fab fa-stack-overflow"
+              />
+            </span>
+          </a>
+          <a
+            aria-label="Twitter"
+            class="level-item"
+            href="https://twitter.com/linux_pangolin"
+          >
+            <span
+              class="icon"
+            >
+              <i
+                class="fab fa-twitter"
+              />
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`AboutCard renders correctly with mocked query 1`] = `
+<body>
+  <div>
+    <div
+      class="card"
+    >
+      <div
+        class="card-image"
+      >
+        <figure
+          class="image"
+        >
+          <img />
+        </figure>
+      </div>
+      <div
+        class="card-content"
+      >
+        <div
+          class="media"
+        >
+          <div
+            class="media-content"
+          >
+            <p
+              class="title is-4"
+            >
+              Carl B. Smiley
+            </p>
+            <p
+              class="subtitle is-6"
+            >
+              @linux_pangolin
+            </p>
+          </div>
+        </div>
+        <div
+          class="level is-mobile"
+        >
+          <a
+            aria-label="GitHub"
+            class="level-item"
+            href="https://github.com/beeryt"
+          >
+            <span
+              class="icon"
+            >
+              <i
+                class="fab fa-github"
+              />
+            </span>
+          </a>
+          <a
+            aria-label="LinkedIn"
+            class="level-item"
+            href="https://www.linkedin.com/in/carl-b-smiley"
+          >
+            <span
+              class="icon"
+            >
+              <i
+                class="fab fa-linkedin"
+              />
+            </span>
+          </a>
+          <a
+            aria-label="StackExchange"
+            class="level-item"
+            href="https://stackexchange.com/users/13595322/linux-pangolin"
+          >
+            <span
+              class="icon"
+            >
+              <i
+                class="fab fa-stack-overflow"
+              />
+            </span>
+          </a>
+          <a
+            aria-label="Twitter"
+            class="level-item"
+            href="https://twitter.com/linux_pangolin"
+          >
+            <span
+              class="icon"
+            >
+              <i
+                class="fab fa-twitter"
+              />
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

@@ -1,70 +1,224 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`IndexPage renders correctly 1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": <body>
-    <div>
-      <h1>
-        Hello Typescript!
-      </h1>
-    </div>
-  </body>,
-  "container": <div>
-    <h1>
-      Hello Typescript!
-    </h1>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
+<body>
+  <div>
+    <header>
+      <nav
+        aria-label="main navigation"
+        class="navbar is-primary"
+        role="navigation"
+      >
+        <div
+          class="navbar-brand"
+        >
+          <a
+            class="navbar-item is-size-3 has-text-dark"
+            href="/"
+          >
+            Site Title
+          </a>
+          <div
+            aria-expanded="false"
+            aria-label="menu"
+            class="navbar-burger "
+            role="button"
+          >
+            <span
+              aria-hidden="true"
+            />
+            <span
+              aria-hidden="true"
+            />
+            <span
+              aria-hidden="true"
+            />
+          </div>
+        </div>
+        <div
+          class="navbar-menu "
+        >
+          <div
+            class="navbar-end"
+          />
+        </div>
+      </nav>
+    </header>
+    <main
+      id="full-body-wrapper"
+    >
+      <section
+        class="section"
+        id="about-me"
+      >
+        <div
+          class="columns container"
+        >
+          <div
+            class="column is-one-quarter"
+          >
+            <div
+              class="card"
+            >
+              <div
+                class="card-image"
+              >
+                <figure
+                  class="image"
+                >
+                  <img
+                    alt="Placeholder image"
+                    src="https://bulma.io/images/placeholders/1280x960.png"
+                    title=""
+                  />
+                </figure>
+              </div>
+              <div
+                class="card-content"
+              >
+                <div
+                  class="media"
+                >
+                  <div
+                    class="media-content"
+                  >
+                    <p
+                      class="title is-4"
+                    >
+                      Carl B. Smiley
+                    </p>
+                    <p
+                      class="subtitle is-6"
+                    >
+                      @linux_pangolin
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="level is-mobile"
+                >
+                  <a
+                    aria-label="GitHub"
+                    class="level-item"
+                    href="https://github.com/beeryt"
+                  >
+                    <span
+                      class="icon"
+                    >
+                      <i
+                        class="fab fa-github"
+                      />
+                    </span>
+                  </a>
+                  <a
+                    aria-label="LinkedIn"
+                    class="level-item"
+                    href="https://www.linkedin.com/in/carl-b-smiley"
+                  >
+                    <span
+                      class="icon"
+                    >
+                      <i
+                        class="fab fa-linkedin"
+                      />
+                    </span>
+                  </a>
+                  <a
+                    aria-label="StackExchange"
+                    class="level-item"
+                    href="https://stackexchange.com/users/13595322/linux-pangolin"
+                  >
+                    <span
+                      class="icon"
+                    >
+                      <i
+                        class="fab fa-stack-overflow"
+                      />
+                    </span>
+                  </a>
+                  <a
+                    aria-label="Twitter"
+                    class="level-item"
+                    href="https://twitter.com/linux_pangolin"
+                  >
+                    <span
+                      class="icon"
+                    >
+                      <i
+                        class="fab fa-twitter"
+                      />
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="column"
+          >
+            <article
+              class="article content"
+            >
+              <h1
+                class="title"
+              >
+                About Me
+              </h1>
+              <p>
+                I am an embedded systems engineer with practical experience in both hardware and software.
+              </p>
+              <p>
+                I currently work at
+                 
+                <a
+                  href="https://www.protingent.com"
+                >
+                  Protingent
+                </a>
+                 as an embedded systems engineer for
+                 
+                <a
+                  class="nobr"
+                  href="https://strykeremergencycare.com"
+                >
+                  Stryker Emergency Care
+                </a>
+                .
+              </p>
+              <p>
+                I am located in the Seattle metropolitan area.
+              </p>
+              <p>
+                For professional inquiries, please
+                 
+                <a
+                  href="https://www.linkedin.com/in/carl-b-smiley"
+                >
+                  visit my LinkedIn
+                </a>
+                .
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="footer"
+    />
+  </div>
+</body>
+`;
+
+exports[`IndexPage renders correctly 2`] = `
+<head>
+  <title>
+    Site Title
+  </title>
+  <meta
+    content="Site Description"
+    data-react-helmet="true"
+    name="description"
+  />
+</head>
 `;

@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SEO correctly sets canonical link 1`] = `
+<body>
+  <div />
+</body>
+`;
+
+exports[`SEO correctly sets canonical link 2`] = `
+<head>
+  <title>
+    Default Title
+  </title>
+  <link
+    data-react-helmet="true"
+    href="https://example.com/blog/one"
+    rel="canonical"
+  />
+  <meta
+    content="Default Description"
+    data-react-helmet="true"
+    name="description"
+  />
+</head>
+`;
+
+exports[`SEO correctly sets description 1`] = `
+<body>
+  <div />
+</body>
+`;
+
+exports[`SEO correctly sets description 2`] = `
+<head>
+  <title>
+    Default Title
+  </title>
+  <meta
+    content="Custom Description"
+    data-react-helmet="true"
+    name="description"
+  />
+</head>
+`;
+
+exports[`SEO correctly sets title 1`] = `
+<body>
+  <div />
+</body>
+`;
+
+exports[`SEO correctly sets title 2`] = `
+<head>
+  <title>
+    Custom Title
+  </title>
+  <meta
+    content="Default Description"
+    data-react-helmet="true"
+    name="description"
+  />
+</head>
+`;
+
+exports[`SEO renders defaults correctly 1`] = `
+<body>
+  <div />
+</body>
+`;
+
+exports[`SEO renders defaults correctly 2`] = `
+<head>
+  <title>
+    Default Title
+  </title>
+  <meta
+    content="Default Description"
+    data-react-helmet="true"
+    name="description"
+  />
+</head>
+`;
