@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+#___gatsby,
+#gatsby-focus-wrapper {
+  display: inherit;
+  min-height: inherit;
+  flex-direction: inherit;
+}
+
+#full-body-wrapper {
+  flex: 1;
+}

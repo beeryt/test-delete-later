@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link renders external link correctly 1`] = `
+<body>
+  <div>
+    <a
+      href="https://example.com"
+    />
+  </div>
+</body>
+`;
+
+exports[`Link renders internal links correctly 1`] = `
+<body>
+  <div>
+    <a
+      href="path/to/page"
+    />
+  </div>
+</body>
+`;

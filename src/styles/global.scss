@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+@import '~bulma/sass/utilities/initial-variables';
+
+$footer-padding: 1.5em;
+
+@import '~bulma';
+@import './sticky-footer';
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+// make sure navbar-burger is centered within navbar-brand
+.navbar-brand {
+  align-items: center;
+}
+
+// provide utility for non-breaking spaces
+.nobr {
+  white-space: nowrap;
+}

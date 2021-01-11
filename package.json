@@ -24,9 +24,19 @@
     "commitlint": "commitlint --to HEAD"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "bulma": "^0.9.1",
     "gatsby": "^2.30.0",
+    "gatsby-image": "^2.10.0",
+    "gatsby-plugin-react-helmet": "^3.9.0",
+    "gatsby-plugin-sass": "^3.0.0",
+    "gatsby-plugin-sharp": "^2.13.1",
+    "gatsby-source-filesystem": "^2.10.0",
+    "gatsby-transformer-sharp": "^2.11.0",
+    "node-sass": "^5.0.0",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
@@ -38,6 +48,7 @@
     "@types/jest": "^26.0.19",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "@types/react-helmet": "^6.1.0",
     "@types/react-test-renderer": "^17.0.0",
     "@typescript-eslint/eslint-plugin": "^4.13.0",
     "@typescript-eslint/parser": "^4.13.0",
@@ -53,6 +64,7 @@
     "prettier": "^2.2.1",
     "react-test-renderer": "^17.0.1",
     "semantic-release": "^17.3.1",
+    "snapshot-diff": "^0.8.1",
     "typescript": "^4.1.3"
   }
 }

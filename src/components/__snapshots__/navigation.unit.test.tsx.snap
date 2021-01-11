@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation handles user click 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -15,11 +15,11 @@
+            Default Title
+          </a>
+          <div
+            aria-expanded=\\"false\\"
+            aria-label=\\"menu\\"
+-           class=\\"navbar-burger \\"
++           class=\\"navbar-burger is-active\\"
+            role=\\"button\\"
+          >
+            <span
+              aria-hidden=\\"true\\"
+            />
+@@ -30,11 +30,11 @@
+              aria-hidden=\\"true\\"
+            />
+          </div>
+        </div>
+        <div
+-         class=\\"navbar-menu \\"
++         class=\\"navbar-menu is-active\\"
+        >
+          <div
+            class=\\"navbar-end\\"
+          />
+        </div>"
+`;
+
+exports[`Navigation handles user click 2`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`Navigation renders correctly 1`] = `
+<body>
+  <div>
+    <header>
+      <nav
+        aria-label="main navigation"
+        class="navbar is-primary"
+        role="navigation"
+      >
+        <div
+          class="navbar-brand"
+        >
+          <a
+            class="navbar-item is-size-3 has-text-dark"
+            href="/"
+          >
+            Default Title
+          </a>
+          <div
+            aria-expanded="false"
+            aria-label="menu"
+            class="navbar-burger "
+            role="button"
+          >
+            <span
+              aria-hidden="true"
+            />
+            <span
+              aria-hidden="true"
+            />
+            <span
+              aria-hidden="true"
+            />
+          </div>
+        </div>
+        <div
+          class="navbar-menu "
+        >
+          <div
+            class="navbar-end"
+          />
+        </div>
+      </nav>
+    </header>
+  </div>
+</body>
+`;
