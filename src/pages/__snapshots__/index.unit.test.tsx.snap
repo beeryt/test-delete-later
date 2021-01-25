@@ -202,6 +202,83 @@ exports[`IndexPage renders correctly 1`] = `
           </div>
         </div>
       </section>
+      <section
+        class="section"
+      >
+        <article
+          class="article container"
+        >
+          <h1
+            class="title"
+          >
+            Welcome
+          </h1>
+          <h2
+            class="subtitle"
+          >
+            For best results, follow directions carefully.
+          </h2>
+          <div
+            class="media"
+          />
+          <a
+            class="media"
+            href="#"
+          >
+            <figure
+              class="media-left image is-64x64"
+            >
+              <img
+                alt=""
+                src="https://bulma.io/images/placeholders/128x128.png"
+                title=""
+              />
+            </figure>
+            <div
+              class="media-content"
+            >
+              <p
+                class="title is-4"
+              >
+                Project 1
+              </p>
+              <p
+                class="subtitle is-6"
+              >
+                Do not write in this space.
+              </p>
+            </div>
+          </a>
+          <a
+            class="media"
+            href="#"
+          >
+            <figure
+              class="media-left image is-64x64"
+            >
+              <img
+                alt=""
+                src="https://bulma.io/images/placeholders/128x128.png"
+                title=""
+              />
+            </figure>
+            <div
+              class="media-content"
+            >
+              <p
+                class="title is-4"
+              >
+                Project 2
+              </p>
+              <p
+                class="subtitle is-6"
+              >
+                Stay seated until bus comes to a complete stop.
+              </p>
+            </div>
+          </a>
+        </article>
+      </section>
     </main>
     <footer
       class="footer"
